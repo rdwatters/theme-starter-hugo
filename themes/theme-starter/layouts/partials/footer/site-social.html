@@ -1,0 +1,14 @@
+<ul class="site-social">
+	{{with .Site.Params.twitterhandle}}
+	<li class="site-social-link"><a href="https://twitter.com/{{.}}" target="_blank"><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
+	{{end}}
+	{{with .Site.Params.facebookurl}}
+	<li class="site-social-link facebook"><a href="{{.}}" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
+	{{end}}
+	{{with .Site.Params.linkedinurl}}
+	<li class="site-social-link linkedin"><a href="{{.}}" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+	{{end}}
+	{{with .Site.Params.youtubeurl}}
+	<li class="site-social-link youtube"><a href="{{.}}" target="_blank"><i class="fa fa-youtube-square" aria-hidden="true"></i></a></li>
+	{{end}}
+</ul>

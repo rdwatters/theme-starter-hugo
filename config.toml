@@ -51,7 +51,7 @@ watch = true
 #CUSTOM PARAMS
 [params]
   sitesubtitle = ""
-	organizationname = ""
+  organizationname = ""
   copyrightline = ""
   sitedescription = ""
   # Add GA Tracking Code Here. This leverages a built-in (ie, "internal") partial from HUGO: https://gohugo.io/extras/analytics#configuring-google-analytics
@@ -61,11 +61,15 @@ watch = true
   ## Include jQuery 2.2.4 in your site head. (see /static/assets/js)
   includejq = true
   ## Date the Site is Published, use YYYY-MM-DD
-  SitePublishDate = ""
+  sitepublishdate = ""
   ## Twitter handle without the "@"
-  TwitterHandle = ""
-  ## Facebook URL
-  facebook = ""
+  twitterhandle = "Pathologists"
+  ## Facebook full URL
+  facebookurl = "https://www.facebook.com/capathologists"
+  ## LinkedIn full URL
+  linkedinurl = "https://www.linkedin.com/company/college-of-american-pathologists-cap-"
+  ## YouTube full URL
+  youtubeurl = "https://www.youtube.com/user/capathologists"
   ## Default Image for Social Sharing. This image should live at static/images/
   defaultsocialimage = "cap-logo-social.png"
   ## Setting this to true will add a "noindex" to *every* page on the site
@@ -76,7 +80,7 @@ watch = true
   addgtm = false
   gtmid = ""
   # Set to true to include a CDN call to FontAwesome
-  usefontawesome = true
+  usefontawesome = false
 # MARKDOWN
 ## Configuration for BlackFriday markdown parser: https://github.com/russross/blackfriday
 [blackfriday]
